@@ -1,0 +1,32 @@
+/* src/App.css */
+/* General Layout for the entire app */
+.main-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #F4F7F6;
+  /* A very light grey background for the whole app */
+}
+
+/* Content Area for pages */
+.content {
+  background-color: orange;
+  /* Match header background */
+
+  flex-grow: 1;
+  /* This will make the content area take up all available space */
+  display: flex;
+  /* Use flex to center page content */
+  justify-content: center;
+  align-items: flex-start;
+  /* Align content to the top within the space */
+  padding: 20px;
+}
+
+/* Keep any general body/html resets or root styles here if they exist */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}

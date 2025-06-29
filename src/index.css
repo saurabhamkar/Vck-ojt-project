@@ -1,0 +1,8 @@
+/* Basic CSS Reset */ 
+body {
+  margin: 0;
+    overflow: auto;
+
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+}
