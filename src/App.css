@@ -10,7 +10,7 @@
 
 /* Content Area for pages */
 .content {
-  background-color: orange;
+  background-color: #52d2d2;
   /* Match header background */
 
   flex-grow: 1;

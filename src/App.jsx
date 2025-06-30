@@ -41,7 +41,7 @@ const App = () =>{
       <div className="main-layout">
 
 <Header/>
-      
+      <div className="content">
   <Routes>
            <Route path="/" element={<HomePage />} />
            <Route path="/contact" element={<ContactPage />} />
@@ -51,8 +51,9 @@ const App = () =>{
               <Route path="*" element={<NotFoundPage />} />
             
            
-
+      
         </Routes>
+        </div>
       < ChatbotComponent/> 
 
     
